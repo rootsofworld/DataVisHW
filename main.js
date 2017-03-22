@@ -40,8 +40,8 @@ g.append("g")
   g.append("g")
       .attr("class", "axis")
       .attr("transform", "translate(0," + height + ")")
-      .call(d3.axisBottom(x0));
-      .text("學年度")
+      .call(d3.axisBottom(x0))
+      .text("學年度");
 
   g.append("g")
       .attr("class", "axis")
