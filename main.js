@@ -41,6 +41,7 @@ g.append("g")
       .attr("class", "axis")
       .attr("transform", "translate(0," + height + ")")
       .call(d3.axisBottom(x0));
+      .text("學年度")
 
   g.append("g")
       .attr("class", "axis")
@@ -77,5 +78,5 @@ g.append("g")
       .attr("x", width)
       .attr("y", 9.5)
       .attr("dy", "0.32em")
-      .text(function(d) { return d; });
+      .text(function(d) { return d + "歲"; });
 
