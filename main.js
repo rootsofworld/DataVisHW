@@ -41,7 +41,14 @@ g.append("g")
       .attr("class", "axis")
       .attr("transform", "translate(0," + height + ")")
       .call(d3.axisBottom(x0))
-      .text("學年度");
+      .append("text")
+        .attr("x", width - 10)
+        .attr("y", 15)
+        .attr("dy", "0.32em")
+        .attr("fill", "#000")
+        .attr("font-weight", "bold")
+        .attr("text-anchor", "start")
+        .text("學年度");
 
   g.append("g")
       .attr("class", "axis")
@@ -53,14 +60,14 @@ g.append("g")
       .attr("fill", "#000")
       .attr("font-weight", "bold")
       .attr("text-anchor", "start")
-      .text("WEIGHT");
+      .text("體重");
 
 
 
   var legend = g.append("g")
       .attr("font-family", "sans-serif")
       .attr("font-size", 10)
-      .attr("text-anchor", "end")
+      .attr("text-anchor", "start")
     .selectAll("g")
     .data(ages)
     .enter().append("g")
