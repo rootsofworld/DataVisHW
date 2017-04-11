@@ -17,7 +17,7 @@ https://api.spotify.com/v1/audio-features/{id}
     
     function login(callback) {
         var CLIENT_ID = 'f784a7131bc746d7973e1edfd5e1de48';
-        var REDIRECT_URI = 'https://github.com/rootsofworld/DataVisHw/hw2/spotivis-oauth/callback';
+        var REDIRECT_URI = 'https://github.com/rootsofworld/DataVisHw/hw2/spotivis-oauth/';
         function getLoginURL(scopes) {
             return 'https://accounts.spotify.com/authorize?client_id=' + CLIENT_ID +
               '&redirect_uri=' + encodeURIComponent(REDIRECT_URI) +
