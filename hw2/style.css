@@ -1,0 +1,25 @@
+.container {
+    text-align: center;
+}
+
+header {
+    font-size: 70px;
+}
+
+#login-btn {
+    font-size: 18px;
+    line-height: 1.5;
+    border-width: 0px;
+    background-color: #2ebd59;
+    color: white;
+    border-radius: 500px;
+    padding: 12px 47px 8px;
+    letter-spacing: 1.2px;
+    min-width: 130px;
+    text-transform: uppercase;
+    white-space: normal;
+    outline: none;           
+}
+#login-btn:hover{
+        background-color: #4dea7c;
+}
