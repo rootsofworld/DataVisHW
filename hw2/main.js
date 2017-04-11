@@ -1,11 +1,23 @@
 //spotivis
 //client ID: f784a7131bc746d7973e1edfd5e1de48
 //client secret: ae1b7827a3604f41832b7175bbcb0e06
+/* Get playlist ownerID : spotifycharts
+Global top 50 
+id : 37i9dQZEVXbMDoHDwVN2tF
+/v1/users/spotifycharts/playlists/37i9dQZEVXbMDoHDwVN2tF/tracks
+
+Taiwan top 50
+id : 37i9dQZEVXbMnZEatlMSiu
+/v1/users/spotifycharts/playlists/37i9dQZEVXbMnZEatlMSiu/tracks
+*/
+/*Get audio-feature for a track
+https://api.spotify.com/v1/audio-features/{id}
+*/
 (function() {
     
     function login(callback) {
         var CLIENT_ID = 'f784a7131bc746d7973e1edfd5e1de48';
-        var REDIRECT_URI = 'https://rootsofworld.github.io/DataVisHw//hw2/spotivis-oauth/';
+        var REDIRECT_URI = 'https://rootsofworld.github.io/DataVisHw//hw2/visHW2.html';
         function getLoginURL(scopes) {
             return 'https://accounts.spotify.com/authorize?client_id=' + CLIENT_ID +
               '&redirect_uri=' + encodeURIComponent(REDIRECT_URI) +
