@@ -5,7 +5,7 @@
     
     function login(callback) {
         var CLIENT_ID = 'f784a7131bc746d7973e1edfd5e1de48';
-        var REDIRECT_URI = 'https://rootsofworld.github.io/DataVisHw/spotivis-oauth/';
+        var REDIRECT_URI = 'https://rootsofworld.github.io/DataVisHw//hw2/spotivis-oauth/';
         function getLoginURL(scopes) {
             return 'https://accounts.spotify.com/authorize?client_id=' + CLIENT_ID +
               '&redirect_uri=' + encodeURIComponent(REDIRECT_URI) +
