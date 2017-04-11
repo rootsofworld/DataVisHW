@@ -1,6 +1,5 @@
 //spotivis
 //client ID: f784a7131bc746d7973e1edfd5e1de48
-//client secret: ae1b7827a3604f41832b7175bbcb0e06
 /* Get playlist ownerID : spotifycharts
 Global top 50 
 id : 37i9dQZEVXbMDoHDwVN2tF
